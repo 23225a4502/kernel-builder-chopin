@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "tank-KernelSU-Proton-release",
+      "name": "tank-vanilla-release",
       "repo": "https://github.com/MotorolaMobilityLLC/kernel-msm",
       "branch": "MMI-V1UW35H.63-14-6",
       "device": "tank",
       "defconfig": "gki_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
